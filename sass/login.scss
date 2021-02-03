@@ -1,0 +1,159 @@
+@import "./reset.scss";
+@import "./base.scss";
+// 广告位
+.root .container{
+    .header-title {
+        text-align: center;
+        font-size: 32px;
+        padding: 100px 0 80px;
+    }
+    .header-b {
+        display: flex;
+        justify-content: center;
+        .left-side {
+            width: 360px;
+            .qrCode {
+                width: 160px;
+                height: 160px;
+                background: #F7F7F7;
+                border-radius: 8px;
+                padding: 20px;
+                margin: 0 auto;
+                margin-bottom: 50px;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        .line {
+            width: 1px;
+            height: 300px;
+            margin: 0 60px;
+            background: rgba(0, 0, 0, 0.1);
+        }
+        .right-side {
+            width: 360px;
+            .wrap{
+                .errorDiv {
+                    line-height: 16px;
+                    overflow: hidden;
+                    margin-bottom: 5px;
+                    display: none;
+                    i {
+                        display: inline-block;
+                        width: 16px;
+                        height: 16px;
+                        background: url(../pics/ic_tips.svg) no-repeat;
+                        background-size: cover;
+                        margin-right: 4px;
+                    }
+                    p {
+                        color: #fa2a2d;
+                        font-size: 14px;
+                    }
+                }
+                .inputBox {
+                    outline: 0;
+                    height: 48px;
+                    line-height: 48px;
+                    width: calc(100% - 32px);
+                    font-size: 14px;
+                    color: #191919;
+                    padding: 0 16px;
+                    border-radius: 8px;
+                    background: rgba(0, 0, 0, 0.05);
+                    border: 1px solid transparent;
+                    &:focus {
+                        border-color: #007dff;
+                    }
+                }
+                .pwd {
+                    margin-top: 26px;
+                }
+                .pwd+div {
+                    font-size: 14px;
+                    margin-top: 10px;
+                    color: #007dff;
+                    .isRem {
+                        margin-right: 5px;
+                    }
+                }
+                .loginBtn {
+                    width: calc(100% - 32px);
+                    border: none;
+                    font-size: 18px;
+                    line-height: 18px;
+                    border-radius: 8px;
+                    background: #CA141D;
+                    opacity: .38;
+                    font-weight: 700;
+                    outline: none;
+                    color: #fff;
+                    padding: 12px 30px;
+                    margin-top: 40px;
+                    cursor: pointer;
+                }
+                
+            }
+            .full-link {
+                display: flex;
+                justify-content: center;
+                font-size: 14px;
+                color: #007dff;
+                margin-top: 40px;
+                span {
+                    padding: 0 15px;
+                    border-right: 1px solid #cecaca;
+                    cursor: pointer;
+                }
+                span:last-child {
+                    border: none;
+                }
+            }
+            .login-list {
+                text-align: center;
+                padding: 30px 0 40px;
+                span {
+                    display: inline-block;
+                    width: 40px;
+                    height: 40px;
+                    margin: 0 25px;
+                    cursor: pointer;
+                }
+                .qq {
+                    background: url(../pics/qq.svg) no-repeat;
+                    background-size: cover;
+                    &:hover {
+                        background: url(../pics/qq_hover.svg) no-repeat;
+                        background-size: cover;
+                    }
+                }
+                .alipay {
+                    background: url(../pics/alipay.svg) no-repeat;
+                    background-size: cover;
+                    &:hover {
+                        background: url(../pics/alipay_hover.svg) no-repeat;
+                        background-size: cover;
+                    }
+                }
+                .weixin {
+                    background: url(../pics/weixin.svg) no-repeat;
+                    background-size: cover;
+                    &:hover {
+                        background: url(../pics/weixin_hover.svg) no-repeat;
+                        background-size: cover;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.footer {
+    background: rgba(0, 0, 0, 0.05);
+    height: 110px;
+    .container{
+        border: 0;
+    }
+}

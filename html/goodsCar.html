@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_2248239_y4i0k891cba.css">
+    <link rel="stylesheet" href="../css/goodscar.css">
+    <script src="../js/jquery-1.10.1.min.js"></script>
+    <script src="../js/request.js"></script>
+    <script src="../js/module.js"></script>
+    <script src="../js/goodsCar.js"></script>
+    <title>华为商城</title>
+</head>
+
+<body>
+    <!-- 顶部 -->
+    <div class="layout">
+        <div class="container">
+            <ul class="sub-left">
+                <li><a href="./index.html">首页</a></li>
+                <li><a href="https://consumer.huawei.com/cn/">华为官网</a></li>
+                <li><a href="https://club.huawei.com">划分俱乐部</a></li>
+                <li><a href="https://www.vmall.com/priority">V码(优购码)</a></li>
+                <li><a href="https://company.vmall.com/">企业购</a></li>
+                <li><a href="javascript:;">Select Region</a></li>
+                <li class="won"><a href="javascript:;">更多精彩<i class="iconfont icon-icon-test5"></i></a>
+                    <div class="wonderful">
+                        <div>EMUI</div>
+                        <div>应用市场</div>
+                        <div>华为终端云空间</div>
+                        <div>开发者联盟</div>
+                    </div>
+                </li>
+            </ul>
+
+            <ul class="sub-right sub-left">
+                <div class="wrapper">
+                    <li><a href="javascript:;" class="loginBtn">请登录</a></li>
+                    <li><a href="javascript:;" class="registerBtn">注册</a></li>
+                </div>
+                <li><a href="javascript:;">我的订单</a></li>
+                <li class="service"><a href="javascript:;">客户服务<i class="iconfont icon-icon-test5"></i></a>
+                    <div class="client">
+                        <div>服务中心</div>
+                        <div>联系客服</div>
+                    </div>
+                </li>
+                <li class="net"><a href="javascript:;">网站导航<i class="iconfont icon-icon-test5"></i></a>
+                    <div class="netBox">
+                        <div class="home left">
+                            <a href="javascript:;" class="iconfont icon-icon_home"></a>
+                            <p>商城首页</p>
+                        </div>
+                        <div class="left">
+                            <div class="bold">频道</div>
+                            <div class="huawei">
+                                <div class="left">华为专区</div>
+                                <div class="left">企业购</div>
+                            </div>
+                        </div>
+                        <div class="left">
+                            <div class="bold">产品</div>
+                            <div class="huawei">
+                                <div class="left">手机</div>
+                                <div class="left">笔记本</div>
+                                <div class="left">平板</div>
+                                <div class="left">智能穿戴</div>
+                                <div class="left">智能家居</div>
+                                <div class="left">智慧屏</div>
+                                <div class="left">耳机音箱</div>
+                                <div class="left">热销配件</div>
+                                <div class="left">生态产品</div>
+                                <div class="left">增值服务</div>
+                            </div>
+                        </div>
+                        <div class="left">
+                            <div class="bold">增值服务</div>
+                            <div class="huawei">
+                                <div class="left">以旧换新</div>
+                                <div class="left">补购保障</div>
+                                <div class="left">一口价换电池</div>
+                            </div>
+                        </div>
+                        <div class="left">
+                            <div class="bold">会员</div>
+                            <div class="huawei">
+                                <div class="left">会员频道</div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="javascript:;">手机版<i class="iconfont icon-icon-test5"></i></a></li>
+            </ul>
+        </div>
+
+    </div>
+    <!-- 订单头部 -->
+    <div class="order-header">
+        <div class="container">
+            <div class="order-left">
+                <h2 class="logo">
+                    <a href="javascript:;">
+                        <img src="../images/logo2.png" alt="">
+                    </a>
+                    <span>我的购物车</span>
+                </h2>
+            </div>
+            <div class="order-right">
+            </div>
+        </div>
+    </div>
+
+    <!-- 购物车 -->
+    <div class="account">
+        <div class="sc-list">
+            <div class="container"></div>
+        </div>
+    </div>
+
+    <!-- 底部 -->
+    <div class="footer">
+        <div class="container">
+            <div class="slogan">
+                <ul>
+                    <li class="s1">
+                        <i class="pic"></i>
+                        <p>百强企业 品质保证</p>
+                    </li>
+                    <li class="s2">
+                        <i class="pic"></i>
+                        <p>7天退货 15天换货</p>
+
+                    </li>
+                    <li class="s3">
+                        <i class="pic"></i>
+                        <p>48元起免运费</p>
+                    </li>
+                    <li class="s4">
+                        <i class="pic"></i>
+                        <p>2000家服务店 全国联保</p>
+                    </li>
+                </ul>
+            </div>
+            <!-- 服务 -->
+            <div class="server">
+                <div class="server-l">
+                    <dl>
+                        <dt>购物相关</dt>
+                        <dd>购物指南</dd>
+                        <dd>配送方式</dd>
+                        <dd>支付方式</dd>
+                        <dd>常见问题</dd>
+                    </dl>
+                    <dl>
+                        <dt>保修与退换货</dt>
+                        <dd>保修政策</dd>
+                        <dd>退换货政策</dd>
+                        <dd>保修状态查询</dd>
+                        <dd>配件防伪查询</dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            维修与技术支持
+                        </dt>
+                        <dd>服务店</dd>
+                        <dd>预约维修</dd>
+                        <dd>手机寄修</dd>
+                        <dd>备件价格查询</dd>
+                        <dd>上门服务</dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            特色服务
+                        </dt>
+                        <dd>防伪查询</dd>
+                        <dd>补购保障</dd>
+                        <dd>以旧换新</dd>
+                        <dd>礼品包装</dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            关于我们
+                        </dt>
+                        <dd>公司介绍</dd>
+                        <dd>华为商城简介</dd>
+                        <dd>华为零售店</dd>
+                        <dd>商家中心</dd>
+                        <dd>意见反馈</dd>
+                    </dl>
+                    <dl>
+                        <dt>友情链接</dt>
+                        <dd>华为集团</dd>
+                        <dd>华为CBG官网</dd>
+                        <dd>花粉俱乐部</dd>
+                        <dd>华为云</dd>
+                        <dd>华为应用市场</dd>
+                    </dl>
+                </div>
+                <div class="server-r">
+                    <dl>
+                        <dt>950805</dt>
+                        <dd>7x24小时客服热线（仅收市话费）</dd>
+                        <dd>
+                            <a href="javascript:;">
+                                <i class="iconfont">&#xe62d;</i>
+                                在线客服
+                            </a>
+                        </dd>
+                    </dl>
+                    <div class="server-code">
+                        <h3>关注Vmail:</h3>
+                        <ul>
+                            <li class="iconfont"><a href="javascript:;">&#xe660;</a></li>
+                            <li class="iconfont"><a href="javascript:;">&#xe608;</a></li>
+                            <li class="iconfont"><a href="javascript:;" class="iconfont icon-baidu"></a></li>
+                            <li class="iconfont"><a href="javascript:;" class="iconfont icon-toutiaoyangshi"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <div class="container">
+            <p class="bottom-logo">
+                <img src="../images/31.png" alt="">
+            </p>
+            <div class="fl">
+                <ul class="bottom-link">
+                    <li><a href="javascript:;">华为集团</a></li>
+                    <li><a href="javascript:;">华为CBG官网</a></li>
+                    <li><a href="javascript:;">花粉俱乐部</a></li>
+                    <li><a href="javascript:;">华为应用市场</a></li>
+                    <li><a href="javascript:;">EMUI</a></li>
+                    <li><a href="javascript:;">华为终端云空间</a></li>
+                    <li><a href="javascript:;">开发者联盟</a></li>
+                    <li><a href="javascript:;">华为商城手机版</a></li>
+                    <li><a href="javascript:;">网站地图</a></li>
+                </ul>
+                <p>隐私声明 服务协议 COOKIES Copyright © 2012-2021 华为终端有限公司 版权所有 粤ICP备19015064号 </p>
+                <p>增值电信业务经营许可证：粤B2-20190762 | 备案主体编号：44201919072182</p>
+                <p>互联网药品信息服务资格证（粤）-非经营性-2020-0102 | 粤东食药监械经营备20203930
+                </p>
+            </div>
+            <p class="bottom-wrrant">
+                <img src="../images/32.png" alt="">
+            </p>
+        </div>
+    </div>
+    <div class="hungBar">
+        <a href="javascript:;" class="hungBar-cart">
+            <span></span>
+            <i>购物车</i>
+        </a>
+        <a href="javascript:;" class="hungBar-service">
+            <span></span>
+            <i>在线客服</i>
+        </a>
+        <a href="javascript:;" class="hungBar-feedback">
+            <span></span>
+            <i>自助服务</i>
+        </a>
+    </div>
+</body>
+
+</html>

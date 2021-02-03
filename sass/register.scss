@@ -1,0 +1,172 @@
+@import "./reset.scss";
+@import "./base.scss";
+
+//注册提示
+.register-main .container {
+    display: flex;
+    .register-selected {
+        width: 240px;
+        height: 52px;
+        padding: 16px;
+        border-radius: 8px;
+        cursor: pointer;
+        background: rgba(0, 0, 0, .05);
+        margin-top: 30px;
+        i {
+            line-height: 20px;
+            font-size: 20px;
+            color: #191919;
+        }
+        span {
+            font-size: 14px;
+            color: #191919;
+        }
+    }
+    .registerTitle {
+        padding: 60px 260px 38px;
+        text-align: center;
+        margin: 0 auto;
+        .mainTitle {
+            text-align: center;
+            font-size: 32px;
+            color: #191919;
+        }
+        .login-link {
+            font-size: 18px;
+            color: #191919;
+            display: flex;
+            justify-content: center;
+            margin-top: 8px;
+            cursor: pointer;
+           .link {
+                span{
+
+                    color: #007dff;
+                }
+            }
+        }
+        .input-msgCode {
+            .pwdDiv,.userDiv,.repwdDiv {
+                position: relative;
+            }
+            &>div{
+                width: 440px;
+                input {
+                    width: 100%;
+                    line-height: 48px;
+                    border: 1px solid transparent;
+                    outline: none;
+                    padding: 0 16px;
+                    font-size: 14px;
+                    margin-top: 20px;
+                    background: rgba(0, 0, 0, 0.05);
+                    border-radius: 10px;
+                    user-select: none;
+                    &:focus {
+                        border-color: #007dff;
+                    }
+                }
+                // 搜索框下面的提示信息
+                
+                &>p{
+                    margin: 8px;
+                    width: calc(100% - 18px);
+                    line-height: 1.4;
+                    color: #ff3320;
+                    text-align: left;
+                    font-size: 14px;
+                    display: none;
+                    user-select: none;
+                    i {
+                        display: inline-block;
+                        width: 16px;
+                        height: 16px;
+                        line-height: 16px;
+                        background: url(../pics/ic_tips.svg) no-repeat;
+                        background-size: cover;
+                        margin-right: 4px;
+                        position: relative;
+                        top: 3px;
+                    }
+                }
+                
+                .eye {
+                    display: inline-block;
+                    width: 24px;
+                    height: 24px;
+                    background: url(../pics/password_disable.svg) no-repeat;
+                    background-size: cover;
+                    position: absolute;
+                    right: -5px;
+                    top: 36px;
+                    cursor: pointer;
+                    z-index: 4;
+                }
+                .tipSpan{
+                    position: absolute;
+                    top: -130px;
+                    left: 30px;
+                    background-color: #fff;
+                    width: 252px;
+                    height: 140px;
+                    z-index: 10;
+                    border-radius: 20px;
+                    text-align: left;
+                    padding: 10px 15px;
+                    box-shadow: 0 6px 16px rgba(0, 0, 0, .18), 0 -6px 16px rgba(0, 0, 0, .08);
+                    display: none;
+                    span{
+                        position: absolute;
+                        border-left: 12px solid transparent;
+                        border-top: 14px solid #fff;
+                        border-right: 12px solid transparent;
+                        top: 135px;
+                        left: 120px;
+                    }
+                    p {
+                        font-size: 12px;
+                        line-height: 25px;
+                        color: #555555;
+                    }
+                    p:first-child {
+                        font-size: 14px;
+                    }
+                    .strength {
+                        font-size: 14px;
+                        margin-top: 10px;
+                    }
+                    .color {
+                        width: 220px;
+                        height: 4px;
+                        margin-top: 8px;
+                        background-color: rgba(0, 0, 0, 0.15);
+                    }
+                }
+            }
+            .registerBtn {
+                border-radius: 8px;
+                background: #007dff;
+                opacity: .5;
+                margin-top: 50px;
+                text-align: center;
+                width: 276px;
+                font-size: 18px;
+                font-weight: 400;
+                display: inline-block;
+                height: 48px;
+                color: #fff;
+                padding: 0 16px;
+                outline: none;
+                border: none;
+            }
+        }
+    }
+}
+
+.footer {
+    background: rgba(0, 0, 0, 0.05);
+    height: 110px;
+    .container{
+        border: 0;
+    }
+}

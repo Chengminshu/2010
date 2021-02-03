@@ -1,0 +1,319 @@
+{
+    "sideNav": [
+        {
+            "title": "手机",
+            "child": [
+                {
+                    "title": "HUAWEI Mate系列",
+                    "img": "../images/34.png"
+                },
+                {
+                    "title": "HUAWEI P系列",
+                    "img": "../images/35.png"
+                },
+                {
+                    "title": "HUAWEI nova系列",
+                    "img": "../images/36.png"
+                },
+                {
+                    "title": "华为畅享系列",
+                    "img": "../images/37.png"
+                },
+                {
+                    "title": "HUAWEI 麦芒系列",
+                    "img": "../images/38.png"
+                }
+            ]
+        },
+        {
+            "title": "智能穿戴与运动健康",
+            "child": [
+                {
+                    "title": "智能手表",
+                    "img": "../images/39.png"
+                },
+                {
+                    "title": "儿童手表",
+                    "img": "../images/40.png"
+                },
+                {
+                    "title": "智能手环",
+                    "img": "../images/41.png"
+                },
+                {
+                    "title": "VR",
+                    "img": "../images/42.png"
+                },
+                {
+                    "title": "智能体脂秤",
+                    "img": "../images/43.png"
+                },
+                {
+                    "title": "穿戴配件",
+                    "img": "../images/44.png"
+                }
+            ]
+        },
+        {
+            "title": "耳机音箱眼镜",
+            "child": [
+                {
+                    "title": "真无线耳机",
+                    "img": "../images/45.png"
+                },
+                {
+                    "title": "有线耳机",
+                    "img": "../images/46.jpg"
+                },
+                {
+                    "title": "蓝牙耳机",
+                    "img": "../images/47.png"
+                },
+                {
+                    "title": "蓝牙音箱",
+                    "img": "../images/48.png"
+                },
+                {
+                    "title": "智能眼镜",
+                    "img": "../images/49.png"
+                },
+                {
+                    "title": "智能音箱",
+                    "img": "../images/50.png"
+                }
+            ]
+        },
+        {
+            "title": "智慧屏",
+            "child": [
+                {
+                    "title": "华为智慧屏",
+                    "img": "../images/51.png"
+                },
+                {
+                    "title": "智慧屏配件",
+                    "img": "../images/52.png"
+                }
+            ]
+        },
+        {
+            "title": "笔记本",
+            "child": [
+                {
+                    "title": "华为MateBook X系列",
+                    "img": "../images/53.png"
+                },
+                {
+                    "title": "华为MateBook系列",
+                    "img": "../images/54.png"
+                },
+                {
+                    "title": "华为MateBook D系列",
+                    "img": "../images/55.png"
+                },
+                {
+                    "title": "华为MateBook B系列",
+                    "img": "../images/56.png"
+                },
+                {
+                    "title": "个人电脑配件",
+                    "img": "../images/57.png"
+                },
+                {
+                    "title": "电脑包",
+                    "img": "../images/58.png"
+                },
+                {
+                    "title": "电脑包",
+                    "img": "../images/59.jpg"
+                }
+            ]
+        },
+        {
+            "title": "平板",
+            "child": [
+                {
+                    "title": "华为MatePad 系列",
+                    "img": "../images/60.png"
+                },
+                {
+                    "title": "华为畅享 系列",
+                    "img": "../images/61.png"
+                },
+                {
+                    "title": "平板配件",
+                    "img": "../images/62.png"
+                }
+            ]
+        },
+        {
+            "title": "智能路由",
+            "child": [
+                {
+                    "title": "智能路由",
+                    "img": "../images/63.png"
+                },
+                {
+                    "title": "移动路由",
+                    "img": "../images/64.png"
+                }
+            ]
+        },
+        {
+            "title": "配件",
+            "child": [
+                {
+                    "title": "充电器/线材",
+                    "img": "../images/65.png"
+                },
+                {
+                    "title": "移动电源",
+                    "img": "../images/66.jpg"
+                },
+                {
+                    "title": "自拍杆/支架",
+                    "img": "../images/67.png"
+                },
+                {
+                    "title": "摄像机/镜头",
+                    "img": "../images/68.png"
+                },
+                {
+                    "title": "生活周边",
+                    "img": "../images/69.png"
+                },
+                {
+                    "title": "保护壳",
+                    "img": "../images/70.png"
+                },
+                {
+                    "title": "保护套",
+                    "img": "../images/71.png"
+                },
+                {
+                    "title": "贴膜",
+                    "img": "../images/72.png"
+                },
+                {
+                    "title": "个人电脑配件",
+                    "img": "../images/58.png"
+                },
+                {
+                    "title": "电脑包",
+                    "img": "../images/59.jpg"
+                },
+                {
+                    "title": "平板配件",
+                    "img": "../images/62.png"
+                },
+                {
+                    "title": "智慧屏配件",
+                    "img": "../images/52.png"
+                },
+                {
+                    "title": "穿戴配件",
+                    "img": "../images/44.png"
+                }
+            ]
+        },
+        {
+            "title": "生态产品",
+            "child": [
+                {
+                    "title": "智能灯光",
+                    "img": "../images/73.png"
+                },
+                {
+                    "title": "生活电器",
+                    "img": "../images/74.png"
+                },
+                {
+                    "title": "数码周边",
+                    "img": "../images/75.png"
+                },
+                {
+                    "title": "环境卫士",
+                    "img": "../images/76.png"
+                },
+                {
+                    "title": "安防门锁",
+                    "img": "../images/77.png"
+                },
+                {
+                    "title": "健康保健",
+                    "img": "../images/78.png"
+                },
+                {
+                    "title": "运动健身",
+                    "img": "../images/79.png"
+                },
+                {
+                    "title": "户外出行",
+                    "img": "../images/80.png"
+                },
+                {
+                    "title": "厨电卫浴",
+                    "img": "../images/81.png"
+                },
+                {
+                    "title": "厨电卫浴",
+                    "img": "../images/82.png"
+                },
+                {
+                    "title": "影音娱乐",
+                    "img": "../images/83.png"
+                },
+                {
+                    "title": "个护美妆",
+                    "img": "../images/83.png"
+                }
+            ]
+        },
+        {
+            "title": "美食酒饮",
+            "child": [
+                {
+                    "title": "甄选美酒",
+                    "img": "../images/84.png"
+                },
+                {
+                    "title": "严选良食",
+                    "img": "../images/11.png"
+                }
+            ]
+        },
+        {
+            "title": "增值服务&企业商用",
+            "child": [
+                {
+                    "title": "华为视频卡",
+                    "img": "../images/85.png"
+                },
+                {
+                    "title": "花币卡",
+                    "img": "../images/86.png"
+                },
+                {
+                    "title": "华为音乐卡",
+                    "img": "../images/87.png"
+                },
+                {
+                    "title": "华为云空间",
+                    "img": "../images/88.png"
+                },
+                {
+                    "title": "电池更换服务",
+                    "img": "../images/89.png"
+                },
+                {
+                    "title": "AI 计算平台",
+                    "img": "../images/90.png"
+                },
+                {
+                    "title": "企业智慧屏",
+                    "img": "../images/91.png"
+                }
+            ]
+        }
+    ]
+}

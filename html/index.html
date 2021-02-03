@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_2248239_y4i0k891cba.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="../js/jquery-1.10.1.min.js"></script>
+    <script src="../js/request.js"></script>
+    <script src="../js/module.js"></script>
+    <script src="../js/index.js"></script>
+    <title>华为商城首页</title>
+</head>
+
+<body>
+    <div class="top-banner">
+        <img src="../images/1.jpg" alt="" class="top-img">
+        <a href="javascript:;" class="close"></a>
+    </div>
+    <!-- 顶部 -->
+    <div class="layout">
+        <div class="container">
+            <ul class="sub-left">
+                <li><a href="./index.html">首页</a></li>
+                <li><a href="https://consumer.huawei.com/cn/">华为官网</a></li>
+                <li><a href="https://club.huawei.com">划分俱乐部</a></li>
+                <li><a href="https://www.vmall.com/priority">V码(优购码)</a></li>
+                <li><a href="https://company.vmall.com/">企业购</a></li>
+                <li><a href="javascript:;">Select Region</a></li>
+                <li class="won"><a href="javascript:;">更多精彩<i class="iconfont icon-icon-test5"></i></a>
+                    <div class="wonderful">
+                        <div>EMUI</div>
+                        <div>应用市场</div>
+                        <div>华为终端云空间</div>
+                        <div>开发者联盟</div>
+                    </div>
+                </li>
+            </ul>
+
+            <ul class="sub-right sub-left">
+                <div class="wrapper">
+                    <li><a href="javascript:;" class="loginBtn">请登录</a></li>
+                    <li><a href="javascript:;" class="registerBtn">注册</a></li>
+                </div>
+                <li><a href="javascript:;">我的订单</a></li>
+                <li class="service"><a href="javascript:;">客户服务<i class="iconfont icon-icon-test5"></i></a>
+                    <div class="client">
+                        <div>服务中心</div>
+                        <div>联系客服</div>
+                    </div>
+                </li>
+                <li class="net"><a href="javascript:;">网站导航<i class="iconfont icon-icon-test5"></i></a>
+                    <div class="netBox">
+                        <div class="home left">
+                            <a href="javascript:;" class="iconfont icon-icon_home"></a>
+                            <p>商城首页</p>
+                        </div>
+                        <div class="left">
+                            <div class="bold">频道</div>
+                            <div class="huawei">
+                                <div class="left">华为专区</div>
+                                <div class="left">企业购</div>
+                            </div>
+                        </div>
+                        <div class="left">
+                            <div class="bold">产品</div>
+                            <div class="huawei">
+                                <div class="left">手机</div>
+                                <div class="left">笔记本</div>
+                                <div class="left">平板</div>
+                                <div class="left">智能穿戴</div>
+                                <div class="left">智能家居</div>
+                                <div class="left">智慧屏</div>
+                                <div class="left">耳机音箱</div>
+                                <div class="left">热销配件</div>
+                                <div class="left">生态产品</div>
+                                <div class="left">增值服务</div>
+                            </div>
+                        </div>
+                        <div class="left">
+                            <div class="bold">增值服务</div>
+                            <div class="huawei">
+                                <div class="left">以旧换新</div>
+                                <div class="left">补购保障</div>
+                                <div class="left">一口价换电池</div>
+                            </div>
+                        </div>
+                        <div class="left">
+                            <div class="bold">会员</div>
+                            <div class="huawei">
+                                <div class="left">会员频道</div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="javascript:;">手机版<i class="iconfont icon-icon-test5"></i></a></li>
+                <li class="cart"><a href="javascript:;"><i class="iconfont icon-gouwuche1"></i> 购物车(<span
+                            class="cart-num">0</span>)</a>
+                    <div class="purchase">
+                        <div class="empty">
+                            <p>
+                                <span class="minicart"></span>
+                            <p>您的购物车是空的，赶紧选购吧~</p>
+                            </p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- 头部 -->
+    <div class="header">
+        <div class="container">
+            <div class="header-left">
+                <h2 class="logo"><img src="../images/logo.png" alt=""></h2>
+                <ul class="nav-list">
+                    <li class="img"><img src="../images/2.png" alt=""></li>
+                    <li><a href="https://sale.vmall.com/mossel.html">莫塞尔专区</a></li>
+                    <li><a href="https://sale.vmall.com/hwzhp.html">场景购</a></li>
+                    <li><a href="https://sale.vmall.com/smarthome.html">智慧生活</a></li>
+                    <li><a href="https://sale.vmall.com/nova.html">nova8系列</a></li>
+                </ul>
+            </div>
+            <div class="header-right">
+                <div class="search-bar">
+                    <input type="text" autocomplete="off" placeholder="Mate40系列  畅享20SE">
+                    <button class="button"><i class="iconfont icon-sousuosearch82"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 商品导航 -->
+    <div class="category">
+        <div class="container">
+            <ul class="category-list">
+
+            </ul>
+        </div>
+    </div>
+
+    <!-- 轮播图 -->
+    <div class="banner">
+        <ul class="imgList">
+            <li><img src="../images/banner1.jpg" alt=""></li>
+            <li><img src="../images/banner2.jpg" alt=""></li>
+            <li><img src="../images/banner3.jpg" alt=""></li>
+            <li><img src="../images/banner4.jpg" alt=""></li>
+            <li><img src="../images/banner5.png" alt=""></li>
+            <li><img src="../images/banner1.jpg" alt=""></li>
+        </ul>
+        <ul class="dotList">
+            <li class="active"><a href="javascript:;"></a></li>
+            <li><a href="javascript:;"></a></li>
+            <li><a href="javascript:;"></a></li>
+            <li><a href="javascript:;"></a></li>
+            <li><a href="javascript:;"></a></li>
+        </ul>
+        <div class="container">
+            <i class="icon leftBtn"></i>
+            <i class="icon rightBtn"></i>
+        </div>
+    </div>
+
+    <!-- 频道切换 -->
+    <div class="channel">
+        <div class="container">
+            <ul class="channel-list">
+                <li class="first">
+                    <div class="w-name">
+                        <img src="../images/logged_in.png" alt="">
+                    </div>
+                    <div class="fl">
+                        <div class="login_url">
+                            您好!请
+                            <a href="javascript:;" class="loginBtn">登录</a>
+                            <span>&nbsp;/&nbsp;</span>
+                            <a href="javascript:;" class="registerBtn">注册</a>
+                        </div>
+                        <div class="w-btn">
+                            <a href="https://sale.vmall.com/welcome.html" class="new">新人福利</a>
+                            <a href="https://www.vmall.com/privilege">会员频道</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <ul class="item-list">
+                        <li><a href="https://company.vmall.com">
+                                <div class="p-img img1"></div>
+                                <div class="p-dec">企业购特惠</div>
+                            </a></li>
+                        <li><a href="https://www.vmall.com/privilege">
+                                <div class="p-img img2"></div>
+                                <div class="p-dec">会员领券</div>
+                            </a></li>
+                        <li><a href="https://vmall.aihuishou.com">
+                                <div class="p-img img3"></div>
+                                <div class="p-dec">以旧换新</div>
+                            </a></li>
+                        <li><a href="https://sale.vmall.com/mate.html">
+                                <div class="p-img img4"></div>
+                                <div class="p-dec">Mate 40系列</div>
+                            </a></li>
+                        <li><a href="https://sale.vmall.com/hwsmh.html">
+                                <div class="p-img img5"></div>
+                                <div class="p-dec">华为数码</div>
+                            </a></li>
+                        <li><a href="https://sale.vmall.com/smarthome.html">
+                                <div class="p-img img6"></div>
+                                <div class="p-dec">智慧生活</div>
+                            </a></li>
+                    </ul>
+                </li>
+                <li class="last">
+                    <div class="p-notice">
+                        <div class="notice">
+                            <a href="javascript:;">公告</a>
+                        </div>
+                        <div class="wrap-info">
+                            <ul class="info-list">
+                                <li>HUAWEI MateBook系列 2021款新品上市</li>
+                                <li>签到抽华为Mate 40 RS保时捷设计优购码活动</li>
+                                <li>选好礼 过新年 活动公告</li>
+                                <li>年货节主会场公告</li>
+                                <li>2021年货节售后服务权益</li>
+                                <li>购机用户有奖调查（MateBook X / X Pro 2020款 笔记本电脑）中奖名单</li>
+                                <li>HUAWEI MateBook系列 2021款新品上市</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="p-info">
+                        <ul>
+                            <li>
+                                <div></div>
+                                <span>优购码</span>
+                            </li>
+                            <li>
+                                <div></div>
+                                <span>更换电池</span>
+                            </li>
+                            <li>
+                                <div></div>
+                                <span>补购保障</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 公告下方的广告图 -->
+    <div class="promo-list">
+        <div class="container">
+            <ul>
+                <li><a href="https://sale.vmall.com/mate.html"><img src="../images/4.jpg" alt=""></a></li>
+                <li><a href="https://sale.vmall.com/nova.html"><img src="../images/5.jpg" alt=""></a></li>
+                <li><a href="https://www.vmall.com/product/10086857314109.html"><img src="../images/6.jpg" alt=""></a>
+                </li>
+                <li><a href="https://www.vmall.com/product/10086890052557.html"><img src="../images/7.png" alt=""></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 热销单品 -->
+    <div class="hot-goods">
+        <div class="container">
+            <div class="h">
+                <h3 class="title">热销单品</h3>
+            </div>
+            <div class="b">
+                <div class="grid-item">
+                    <a href="https://www.vmall.com/product/10086593188778.html">
+                        <img src="../images/9.jpg" alt="">
+                    </a>
+                </div>
+                <ul class="item-list">
+                    <li>
+                        <a href="./goodsDesc.html?gid=10086199502267">
+                            <img src="../images/8.png" alt="">
+                            <p class="grid-title">HUAWEI nova 8 Pro</p>
+                            <p class="grid-desc">10:08限时开售</p>
+                            <p class="grid-price">¥3999</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./goodsDesc.html?gid=10086073374361">
+                            <img src="../images/11.png" alt="">
+                            <p class="grid-title">享睡 智能健康枕</p>
+                            <p class="grid-desc">限时直降50元</p>
+                            <p class="grid-price">¥299</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./goodsDesc.html?gid=10086715691479">
+                            <img src="../images/12.png" alt="">
+                            <p class="grid-title">HUAWEI P40 Pro 5G</p>
+                            <p class="grid-desc">限量赠保护壳</p>
+                            <p class="grid-price">¥5988</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./goodsDesc.html?gid=10086882694240">
+                            <img src="../images/12.png" alt="">
+                            <p class="grid-title">HUAWEI P40 Pro+ 5G</p>
+                            <p class="grid-desc">6期免息+限量赠保护壳</p>
+                            <p class="grid-price">¥7988</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./goodsDesc.html?gid=10086063422898">
+                            <img src="../images/13.png" alt="">
+                            <p class="grid-title">HUAWEI Mate 30E Pro 5G</p>
+                            <p class="grid-desc">享6期免息</p>
+                            <p class="grid-price">¥5299</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./goodsDesc.html?gid=10086851388479">
+                            <img src="../images/14.png" alt="">
+                            <p class="grid-title">蓓慈智能护眼仪</p>
+                            <p class="grid-desc">恒温热敷 穴位按压</p>
+                            <p class="grid-price">¥399</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./goodsDesc.html?gid=10086375798518">
+                            <img src="../images/15.png" alt="">
+                            <p class="grid-title">HUAWEI Mate 40 Pro+ 5G</p>
+                            <p class="grid-desc">享多重权益 </p>
+                            <p class="grid-price">¥8999</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="./goodsDesc.html?gid=10086269031277">
+                            <img src="../images/16.png" alt="">
+                            <p class="grid-title">HUAWEI MateBook X</p>
+                            <p class="grid-desc">轻至1kg </p>
+                            <p class="grid-price">¥8988</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- 精品推荐 -->
+    <div class="recommend-goods">
+        <div class="container">
+            <div class="h">
+                <h3 class="title">精品推荐</h3>
+            </div>
+            <ul class="grid-items">
+                <li>
+                    <a href="./goodsDesc.html?gid=10086857314109">
+                        <div class="grid-info">
+                            <p class="grid-img"><img src="../images/10.png" alt=""></p>
+                            <p class="grid-desc">享3期免息 </p>
+                            <div class="grid-title">HUAWEI MateBook X Pro 2021款</div>
+                            <p class="grid-price">¥9899</p>
+                        </div>
+                        <p class="grid-tips"><span>新品上市</span></p>
+                    </a>
+                </li>
+                <li>
+                    <a href="./goodsDesc.html?gid=10086840537723">
+                        <div class="grid-info">
+                            <p class="grid-img"><img
+                                    src="https://res.vmallres.com/pimages//product/6941487202256/800_800_CAEB4B495D814F32C132C8E65B45EBA5FEACC985B5D26A37mp.png"
+                                    alt=""></p>
+                            <p class="grid-desc">最高省100 </p>
+                            <div class="grid-title">HUAWEI FreeBuds Pro</div>
+                            <p class="grid-price">¥999</p>
+                        </div>
+                        <p class="grid-tips"><span>爆款新品</span></p>
+                    </a>
+                </li>
+                <li>
+                    <a href="./goodsDesc.html?gid=10086744529220">
+                        <div class="grid-info">
+                            <p class="grid-img"><img
+                                    src="https://res0.vmallres.com/pimages//product/6972453167255/428_428_5A0F299CEB8FD02EC475984195F40859A18690A29D3F4641mp.png"
+                                    alt=""></p>
+                            <p class="grid-desc">限时特惠30元 </p>
+                            <div class="grid-title">HUAWEI WATCH FIT</div>
+                            <p class="grid-price">¥769</p>
+                        </div>
+                        <p class="grid-tips"><span>新品上市</span></p>
+                    </a>
+                </li>
+                <li>
+                    <a href="./goodsDesc.html?gid=10086212903203">
+                        <div class="grid-info">
+                            <p class="grid-img"><img
+                                    src="https://res0.vmallres.com/pimages//product/6901443319893/428_428_1560822511725mp.png"
+                                    alt=""></p>
+                            <p class="grid-desc">享3期免息 </p>
+                            <div class="grid-title">华为平板 M6 8.4英寸</div>
+                            <p class="grid-price">¥2199</p>
+                        </div>
+                        <p class="grid-tips"><span>新品上市</span></p>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+    <!-- 图片切换 -->
+    <div class="banner-slideshow">
+        <div class="container">
+            <ul class="slide-list">
+                <li><img src="../images/m-banner1.jpg" alt=""></li>
+                <li><img src="../images/m-banner2.png" alt=""></li>
+                <li><img src="../images/m-banner3.jpg" alt=""></li>
+                <li><img src="../images/m-banner4.jpg" alt=""></li>
+            </ul>
+            <ul class="poiner-list">
+                <a href="javascript:;" class="active"></a>
+                <a href="javascript:;"></a>
+                <a href="javascript:;"></a>
+                <a href="javascript:;"></a>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 手机 -->
+    <div class="channel-floor">
+        <div class="container">
+            <div class="h">
+                <h3 class="title">手机</h3>
+                <ul class="nav">
+                    <li><a href="./goodsList.html?name=Mate">HUAWEI Mate系列</a></li>
+                    <li><a href="./goodsList.html?name=P">HUAWEI P系列</a></li>
+                    <li><a href="./goodsList.html?name=nova">HUAWEI nova系列</a></li>
+                    <li><a href="./goodsList.html?name=enjoy">华为畅享系列</a></li>
+                    <li><a href="./goodsList.html?name=Maimang">HUAWEI 麦芒系列</a></li>
+                </ul>
+                <span class="more">查看更多<i class="iconfont">&#xe621;</i></span>
+            </div>
+            <div class="b">
+                <ul class="goods-list">
+                    <li>
+                        <img src="../images/17.png" alt="">
+                    </li>
+                    <li>
+                        <a class="grid-info" href="./goodsDesc.html?gid=10086437813952">
+                            <p class="p-img"><img src="../images/18.png" alt=""></p>
+                            <p class="grid-desc">华为畅享20 SE</p>
+                            <div class="grid-title">新品上市 </div>
+                            <p class="grid-price">¥1499</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="grid-info" href="./goodsDesc.html?gid=10086374426533">
+                            <p class="p-img"><img src="../images/19.png" alt=""></p>
+                            <p class="grid-desc">HUAWEI Mate 30 RS 保时捷设计</p>
+                            <div class="grid-title">致敬时代</div>
+                            <p class="grid-price">¥12999</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="grid-info" href="./goodsDesc.html?gid=10086163649385">
+                            <p class="p-img"><img src="../images/20.png" alt=""></p>
+                            <p class="grid-desc">HUAWEI nova 7 Proo</p>
+                            <div class="grid-title">限时优惠100元</div>
+                            <p class="grid-price">¥3699</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="grid-info" href="./goodsDesc.html?gid=10086226244792">
+                            <p class="p-img"><img src="../images/21.png" alt=""></p>
+                            <p class="grid-desc">华为畅享20 Pro</p>
+                            <div class="grid-title">购机赠耳机</div>
+                            <p class="grid-price">¥1999</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- 音箱耳机 -->
+    <div class="channel-floor">
+        <div class="container">
+            <div class="h">
+                <h3 class="title">耳机音箱眼镜</h3>
+                <ul class="nav">
+                    <li><a href="javascript:;">真无线耳机</a></li>
+                    <li><a href="javascript:;">蓝牙耳机</a></li>
+                    <li><a href="javascript:;">蓝牙音箱</a></li>
+                    <li><a href="javascript:;">智能眼镜</a></li>
+                    <li><a href="javascript:;">有线耳机</a></li>
+                    <li><a href="javascript:;">智能音箱</a></li>
+                </ul>
+                <span class="more">查看更多<i class="iconfont">&#xe621;</i></span>
+            </div>
+            <div class="b">
+                <ul class="goods-list">
+                    <li id="voice">
+                        <a href="./goodsDesc.html?gid=10086840537723">
+                            <img src="../images/22.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="grid-info" href="./goodsDesc.html?gid=10086764884929">
+                            <p class="p-img"><img src="../images/23.png" alt=""></p>
+                            <p class="grid-desc">HUAWEI Sound X</p>
+                            <div class="grid-title">限时优惠300元 </div>
+                            <p class="grid-price">¥1699</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="grid-info" href="./goodsDesc.html?gid=10086408746610">
+                            <p class="p-img"><img src="../images/24.png" alt=""></p>
+                            <p class="grid-desc">HUAWEI 智能眼镜 2代</p>
+                            <div class="grid-title">享12期免息</div>
+                            <p class="grid-price">¥2499</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="grid-info" href="./goodsDesc.html?gid=10086049092172">
+                            <p class="p-img"><img src="../images/25.png" alt=""></p>
+                            <p class="grid-desc">HUAWEI FreeBuds 3 无线耳机</p>
+                            <div class="grid-title">最高省200</div>
+                            <p class="grid-price">¥699</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="grid-info" href="./goodsDesc.html?gid=10086723030212">
+                            <p class="p-img"><img src="../images/26.png" alt=""></p>
+                            <p class="grid-desc">HUAWEI Sound 智能音箱</p>
+                            <div class="grid-title">限时优惠50元</div>
+                            <p class="grid-price">¥949</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="grid-info" href="./goodsDesc.html?gid=10086035319101">
+                            <p class="p-img"><img src="../images/27.png" alt=""></p>
+                            <p class="grid-desc">FreeBuds Studio 无线头戴耳机</p>
+                            <div class="grid-title">限时优惠200</div>
+                            <p class="grid-price">¥1799</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="grid-info" href="./goodsDesc.html?gid=10086406199583">
+                            <p class="p-img"><img src="../images/28.png" alt=""></p>
+                            <p class="grid-desc">华为 AI 音箱 2</p>
+                            <div class="grid-title">限时优惠200</div>
+                            <p class="grid-price">¥269</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="grid-info" href="./goodsDesc.html?gid=10086352435072">
+                            <p class="p-img"><img src="../images/29.png" alt=""></p>
+                            <p class="grid-desc">HUAWEI FreeLace Pro 无线耳机</p>
+                            <div class="grid-title">限时优惠200</div>
+                            <p class="grid-price">¥499</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="grid-info" href="./goodsDesc.html?gid=10086808172342">
+                            <p class="p-img"><img src="../images/30.png" alt=""></p>
+                            <p class="grid-desc">HUAWEI FreeLace 无线耳机</p>
+                            <div class="grid-title">限时优惠200</div>
+                            <p class="grid-price">¥389</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 底部 -->
+    <div class="footer">
+        <div class="container">
+            <div class="slogan">
+                <ul>
+                    <li class="s1">
+                        <i class="pic"></i>
+                        <p>百强企业 品质保证</p>
+                    </li>
+                    <li class="s2">
+                        <i class="pic"></i>
+                        <p>7天退货 15天换货</p>
+
+                    </li>
+                    <li class="s3">
+                        <i class="pic"></i>
+                        <p>48元起免运费</p>
+                    </li>
+                    <li class="s4">
+                        <i class="pic"></i>
+                        <p>2000家服务店 全国联保</p>
+                    </li>
+                </ul>
+            </div>
+            <!-- 服务 -->
+            <div class="server">
+                <div class="server-l">
+                    <dl>
+                        <dt>购物相关</dt>
+                        <dd>购物指南</dd>
+                        <dd>配送方式</dd>
+                        <dd>支付方式</dd>
+                        <dd>常见问题</dd>
+                    </dl>
+                    <dl>
+                        <dt>保修与退换货</dt>
+                        <dd>保修政策</dd>
+                        <dd>退换货政策</dd>
+                        <dd>保修状态查询</dd>
+                        <dd>配件防伪查询</dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            维修与技术支持
+                        </dt>
+                        <dd>服务店</dd>
+                        <dd>预约维修</dd>
+                        <dd>手机寄修</dd>
+                        <dd>备件价格查询</dd>
+                        <dd>上门服务</dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            特色服务
+                        </dt>
+                        <dd>防伪查询</dd>
+                        <dd>补购保障</dd>
+                        <dd>以旧换新</dd>
+                        <dd>礼品包装</dd>
+                    </dl>
+                    <dl>
+                        <dt>
+                            关于我们
+                        </dt>
+                        <dd>公司介绍</dd>
+                        <dd>华为商城简介</dd>
+                        <dd>华为零售店</dd>
+                        <dd>商家中心</dd>
+                        <dd>意见反馈</dd>
+                    </dl>
+                    <dl>
+                        <dt>友情链接</dt>
+                        <dd>华为集团</dd>
+                        <dd>华为CBG官网</dd>
+                        <dd>花粉俱乐部</dd>
+                        <dd>华为云</dd>
+                        <dd>华为应用市场</dd>
+                    </dl>
+                </div>
+                <div class="server-r">
+                    <dl>
+                        <dt>950805</dt>
+                        <dd>7x24小时客服热线（仅收市话费）</dd>
+                        <dd>
+                            <a href="javascript:;">
+                                <i class="iconfont">&#xe62d;</i>
+                                在线客服
+                            </a>
+                        </dd>
+                    </dl>
+                    <div class="server-code">
+                        <h3>关注Vmail:</h3>
+                        <ul>
+                            <li class="iconfont"><a href="javascript:;">&#xe660;</a></li>
+                            <li class="iconfont"><a href="javascript:;">&#xe608;</a></li>
+                            <li class="iconfont"><a href="javascript:;" class="iconfont icon-baidu"></a></li>
+                            <li class="iconfont"><a href="javascript:;" class="iconfont icon-toutiaoyangshi"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bottom">
+        <div class="container">
+            <p class="bottom-logo">
+                <img src="../images/31.png" alt="">
+            </p>
+            <div class="fl">
+                <ul class="bottom-link">
+                    <li><a href="javascript:;">华为集团</a></li>
+                    <li><a href="javascript:;">华为CBG官网</a></li>
+                    <li><a href="javascript:;">花粉俱乐部</a></li>
+                    <li><a href="javascript:;">华为应用市场</a></li>
+                    <li><a href="javascript:;">EMUI</a></li>
+                    <li><a href="javascript:;">华为终端云空间</a></li>
+                    <li><a href="javascript:;">开发者联盟</a></li>
+                    <li><a href="javascript:;">华为商城手机版</a></li>
+                    <li><a href="javascript:;">网站地图</a></li>
+                </ul>
+                <p>隐私声明 服务协议 COOKIES Copyright © 2012-2021 华为终端有限公司 版权所有 粤ICP备19015064号 </p>
+                <p>增值电信业务经营许可证：粤B2-20190762 | 备案主体编号：44201919072182</p>
+                <p>互联网药品信息服务资格证（粤）-非经营性-2020-0102 | 粤东食药监械经营备20203930
+                </p>
+            </div>
+            <p class="bottom-wrrant">
+                <img src="../images/32.png" alt="">
+            </p>
+        </div>
+    </div>
+    <div class="hungBar">
+        <a href="./goodsCar.html" class="hungBar-cart">
+            <span></span>
+            <i>购物车</i>
+            <i class="tip"></i>
+        </a>
+        <a href="javascript:;" class="hungBar-service">
+            <span></span>
+            <i>在线客服</i>
+        </a>
+        <a href="javascript:;" class="hungBar-feedback">
+            <span></span>
+            <i>自助服务</i>
+        </a>
+    </div>
+</body>
+
+</html>
